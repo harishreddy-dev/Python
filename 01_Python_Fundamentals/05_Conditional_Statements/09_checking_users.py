@@ -19,4 +19,4 @@ for new_user in new_users:
     if new_user.lower() in current_users:
         print("user already exits, enter new username.")
     else:
-        print("username is available")
+        print("username is available.")
