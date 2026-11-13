@@ -5,10 +5,10 @@
 #              -rmation stored in your dictionary.
 
 person_details = {
-    "first_name" : "David",
-    "last_name" : "short",
-    "age" : 19,
-    "city" : "New York"
+    'first_name' : 'David',
+    'last_name' : 'short',
+    'age' : 19,
+    'city' : 'New York'
 }
 
 print(f"First Name: {person_details.get("first_name")}")

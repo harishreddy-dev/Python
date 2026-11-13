@@ -8,11 +8,11 @@
 #                        for your program.
 
 favorite_numbers = {
-    "Neha" : 6,
-    "Reddy" : 1,
-    "Harish" : 10,
-    "Ramya" : 7,
-    "Kiran" : 3
+    'Neha' : 6,
+    'Reddy' : 1,
+    'Harish' : 10,
+    'Ramya' : 7,
+    'Kiran' : 3
 }
 
 print(f"Neha favorite number: {favorite_numbers.get("Neha")}")

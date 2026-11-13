@@ -11,11 +11,11 @@
 #   word-meaning pair in your output. {without aloop.}
 
 glossary ={
-    "variable" : "Which gives info of size, range, operations of a data. ",
-    "data type" : "Which used to identify the type of data.",
-    "list" : "Which is collection of elements in a specify order.",
-    "dictionary" : "Which is collection of key-value pairs.",
-    "set" : "Which is a unordered collection of unique elements."
+    'variable' : 'Which gives info of size, range, operations of a data.',
+    'data type' : 'Which used to identify the type of data.',
+    'list' : 'Which is collection of elements in a specify order.',
+    'dictionary' : 'Which is collection of key-value pairs.',
+    'set' : 'which is a unordered collection of unique elements.'
 
 }
 
