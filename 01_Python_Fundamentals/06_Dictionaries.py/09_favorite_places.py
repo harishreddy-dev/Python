@@ -8,10 +8,11 @@
 
 favorite_places = {
     'harish' : ['hyderabad','new york','melbourne'],
-    'sam' : ['mubai','shimla',],
-    'rahul' : ['benguluru']
+    'sam' : ['mumbai','shimla',],
+    'rahul' : ['bengaluru']
 }
 for person, places in favorite_places.items():
     print(f"{person.title()} Favorite places:")
     for place in places:
         print(f"\t{place.title()}")
+    print("\n")
