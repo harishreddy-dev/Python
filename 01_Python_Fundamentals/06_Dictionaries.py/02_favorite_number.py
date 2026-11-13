@@ -15,5 +15,8 @@ favorite_numbers = {
     "Kiran" : 3
 }
 
-for person, number in favorite_numbers.items():
-    print(f"{person}'s favorite number: {number}")
+print(f"Neha favorite number: {favorite_numbers.get("Neha")}")
+print(f"Reddy favorite number: {favorite_numbers.get("Reddy")}")
+print(f"Harish favorite number: {favorite_numbers.get("Harish")}")
+print(f"Ramya favorite number: {favorite_numbers.get("Ramya")}")
+print(f"Kiran favorite number: {favorite_numbers.get("Kiran")}")

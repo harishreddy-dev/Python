@@ -11,6 +11,9 @@ person_details = {
     "city" : "New York"
 }
 
-for person , detail in person_details.items():
-    print(f"{person} is {detail}")
+print(f"First Name: {person_details.get("first_name")}")
+print(f"Last Name: {person_details.get("last_name")}")
+print(f"Age: {person_details.get("age")}")
+print(f"City: {person_details.get("city")}")
+
 
