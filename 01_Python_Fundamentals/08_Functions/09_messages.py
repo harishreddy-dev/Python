@@ -2,15 +2,15 @@
 #                Pass the list to a function called show_messages(), wh-
 #                -ich prints each text message.
 
-mgs = [
-    'hello, world!',
-    'love, world?',
-    'bye, world!'
+msg = [
+    'Hello, World!',
+    'Love, World?',
+    'Bye, World!'
 ]
  
 def show_messages(messages):
     """Prints a short text messages."""
     for message in messages:
-        print(message.title())
+        print(message)
 
-show_messages(mgs)
+show_messages(msg)
