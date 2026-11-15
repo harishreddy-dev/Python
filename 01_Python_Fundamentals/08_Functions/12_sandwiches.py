@@ -7,7 +7,7 @@
 #                   -ments each time.
 
 def make_sandwich(*toppings):
-    """"""
+    """Print a summary of the selected sandwich toppings."""
     print("The Selected Toppings on Sandwich:")
     for topping in toppings:
         print(topping)
