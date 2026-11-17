@@ -3,9 +3,9 @@
 #                -ich prints each text message.
 
 msg = [
-    'Hello, World!',
-    'Love, World?',
-    'Bye, World!'
+    "Hello, World!",
+    "Love, World?",
+    "Bye, World!"
 ]
  
 def show_messages(messages):

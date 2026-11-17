@@ -10,10 +10,10 @@
 
 def make_car(manufacturer,model,**car_info):
     """Build and return a dictionary containing information about a car."""
-    car_info['manufacturer'] = manufacturer
-    car_info['model'] = model
+    car_info["manufacturer"] = manufacturer
+    car_info["model"] = model
 
     return car_info
 
-car = make_car('Toyota','XUV', color='Black', tow_package=True) 
+car = make_car("Toyota", "XUV", color="Black", tow_package=True) 
 print(car)

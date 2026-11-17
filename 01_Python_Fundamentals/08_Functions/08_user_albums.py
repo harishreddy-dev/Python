@@ -7,7 +7,7 @@
 
 def make_album(artist, title):
     """Builds and returns a dictionary describing a music album."""
-    album =  {'Artist' : artist, 'Title' : title}
+    album =  {"Artist" : artist, "Title" : title}
     return album
 
 def main():

@@ -12,8 +12,8 @@ def make_sandwich(*toppings):
     for topping in toppings:
         print(topping)
 
-make_sandwich('cheese','avocado','chilly flakes')
+make_sandwich("cheese", "avocado", "chilly flakes")
 print("_________________________________________________________________")
-make_sandwich('chicken','cheese')
+make_sandwich("chicken", "cheese")
 print("_________________________________________________________________")
-make_sandwich('egg')
+make_sandwich("egg")

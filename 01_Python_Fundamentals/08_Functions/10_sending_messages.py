@@ -7,9 +7,9 @@
 #                         were moved correctly.
 
 msg = [
-    'Hello, World!',
-    'Love, World?',
-    'Bye, World!'
+    "Hello, World!",
+    "Love, World?",
+    "Bye, World!"
 ]
 
 def send_messages(messages):

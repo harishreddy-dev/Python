@@ -5,9 +5,9 @@
 #                          -iginal list has retained its messages.
 
 msg = [
-    'Hello, World!',
-    'Love, World?',
-    'Bye, World!'
+    "Hello, World!",
+    "Love, World?",
+    "Bye, World!"
 ]
 
 def send_messages(messages):
