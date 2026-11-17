@@ -5,10 +5,10 @@
 #              function for three different cities, at least one of which
 #              is not in the default country.
 
-def describe_city(city,country= 'India'):
+def describe_city(city, country='India'):
     """Prints sentence describing city and country."""
     print(f"{city.title()} is in {country.title()}")
 
 describe_city('mumbai')
-describe_city(city= 'hyderabad')
-describe_city(city= 'new york', country= 'usa')
+describe_city(city='hyderabad')
+describe_city(city='new york', country='usa')

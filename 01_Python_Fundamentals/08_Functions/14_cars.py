@@ -15,5 +15,5 @@ def make_car(manufacturer,model,**car_info):
 
     return car_info
 
-car = make_car('Toyota','XUV', color= 'Black', tow_package=True) 
+car = make_car('Toyota','XUV', color='Black', tow_package=True) 
 print(car)
