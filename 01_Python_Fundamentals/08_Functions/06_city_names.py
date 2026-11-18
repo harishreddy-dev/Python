@@ -8,6 +8,6 @@ def city_country(city, country):
     """Returns string format city-country pair."""
     return f'"{city.title()}, {country.title()}"'
 
-print(city_country('tokyo', 'japan'))
-print(city_country('new york', 'usa'))
-print(city_country('hyderabad', 'india'))
+print(city_country("tokyo", "japan"))
+print(city_country("new york", "usa"))
+print(city_country("hyderabad", "india"))
