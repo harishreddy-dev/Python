@@ -4,11 +4,11 @@
 #                    the default message, and a shirt of any size with a
 #                    different message.
 
-def make_shirt(size='L', message='I love Python'):
+def make_shirt(size="L", message="I love Python"):
     """prints sentences summarizing size and message printed on a T-shirt."""
     print(f"The size of your T-shirt: {size}")
     print(f"The message on your T-shirt: {message}")
 
 make_shirt()
-make_shirt('M')
-make_shirt(size='S', message='Hello, World!')
+make_shirt("M")
+make_shirt(size="S", message="Hello, World!")
