@@ -11,6 +11,6 @@ def make_shirt(size, message):
     print(f"The size of your T-shirt: {size}")
     print(f"The message on your T-shirt: {message}")
 
-make_shirt('M','Hello, World!...')
+make_shirt("M", "Hello, World!...")
 
-make_shirt(size='XL', message='Bye, World!...')
+make_shirt(size="XL", message="Bye, World!...")
