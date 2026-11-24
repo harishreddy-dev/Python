@@ -7,9 +7,9 @@
 # • Use a loop to print the name of each country included in the dictionary.
 
 rivers = {
-    'ganga' : 'india',
-    'nile' : 'egypt',
-    'amazon' : 'brazil'
+    "ganga" : "india",
+    "nile" : "egypt",
+    "amazon" : "brazil"
 }
 
 for river, country in rivers.items():
